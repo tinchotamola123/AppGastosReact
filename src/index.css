@@ -5,3 +5,27 @@
 #root{
     height: 50px;
 }
+
+@media (max-width: 1050px) {
+    #contenedor{
+        display: block;
+        padding: 5px;
+        margin: 25px 0px;
+    }
+    #contenedor1{
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    #contenedor{
+        display: block;
+        padding: 5px;
+        margin: 25px 0px;
+    }
+    #contenedor1{
+        width: 90%;
+    }
+}
